@@ -21,9 +21,21 @@
     <ClCompile Include="AA.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="xtring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="my_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="c++中string的用法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xstring.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

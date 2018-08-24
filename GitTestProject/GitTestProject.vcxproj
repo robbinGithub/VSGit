@@ -51,7 +51,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_DEPRECATE;-D_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
@@ -79,10 +79,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AA.cpp" />
+    <ClCompile Include="c++中string的用法.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="my_string.cpp" />
+    <ClCompile Include="xtring.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AA.h" />
+    <ClInclude Include="xstring.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

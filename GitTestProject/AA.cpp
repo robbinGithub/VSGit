@@ -14,9 +14,7 @@ AA& AA::operator = (const  AA &aa)
 	a = aa.a;
 	cout << "调用AA赋值函数" << a << endl;
 	return *this;
-
 }
-
 
 AA::~AA()
 {
