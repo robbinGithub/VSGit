@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// TEST
+// TEST2
 AA::AA(int v)
 {
    a = v;
